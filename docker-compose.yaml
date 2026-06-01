@@ -1,0 +1,10 @@
+services:
+  tolgee:
+    image: tolgee/tolgee:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - tolgee.authentication.initialUsername=admin
+      - tolgee.authentication.initialPassword=admin
+      # For a production setup, you would add Postgres DB credentials here. 
+      # Without them, it uses an in-memory database for local testing.
