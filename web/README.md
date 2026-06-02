@@ -68,9 +68,10 @@ For host-specific presets (Vercel, Netlify, Cloudflare, AWS Lambda, etc.) and tu
 
 This add-on wires up ParaglideJS for localized routing and message formatting.
 
-- Messages live in `project.inlang/messages`.
+- Messages live in `messages/{locale}.json` (Crowdin syncs into this folder).
 - URLs are localized through the Paraglide Vite plugin and router `rewrite` hooks.
-- Run the dev server or build to regenerate the `src/paraglide` outputs.
+- Run `npm run i18n:compile` after editing messages, or use `npm run dev` (Vite compiles via the Paraglide plugin).
+- **Testing Crowdin + Paraglide:** see [docs/I18N_TESTING.md](../docs/I18N_TESTING.md).
 
 
 ## Shadcn

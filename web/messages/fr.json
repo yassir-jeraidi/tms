@@ -1,0 +1,17 @@
+{
+  "button": "cliquer ici",
+  "card_title": "titre",
+  "create_project": "title",
+  "deploy_your_new_project_in_one_click": "Deploy your new project in one-click.",
+  "name": "{total, plural, =0 {Aucun billet} one {1 billet} other {# billets}}",
+  "name_of_your_project": "Mon projet",
+  "framework": "bibliothèque",
+  "select": "Choisir",
+  "outline": "Annuler",
+  "home_page": "Accueil",
+  "about_page": "À propos",
+  "example_message": "Bienvenue dans votre application i18n.",
+  "language_label": "Langue",
+  "current_locale": "Langue actuelle : {locale}",
+  "learn_router": "Découvrir Paraglide JS"
+}

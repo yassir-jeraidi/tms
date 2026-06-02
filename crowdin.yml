@@ -1,3 +1,9 @@
+# Crowdin → Paraglide: source and translations live in the same folder Paraglide reads.
+# See docs/I18N_TESTING.md for setup and manual test steps.
+
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
+
 files:
   - source: /web/messages/en.json
-    translation: /translations/%two_letters_code%.%file_extension%
+    translation: /web/messages/%two_letters_code%.json
