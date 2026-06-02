@@ -1,0 +1,17 @@
+{
+  "button": "انقر هنا",
+  "card_title": "عنوان",
+  "create_project": "title",
+  "deploy_your_new_project_in_one_click": "Deploy your new project in one-click.",
+  "name": "{total, plural, =0 {No tickets} one {1 ticket} other {# tickets}}",
+  "name_of_your_project": "Name of your project",
+  "framework": "Framework",
+  "select": "Select",
+  "outline": "Cancel",
+  "home_page": "Home page",
+  "about_page": "About page",
+  "example_message": "Welcome to your i18n app.",
+  "language_label": "Language",
+  "current_locale": "Current locale: {locale}",
+  "learn_router": "Learn Paraglide JS"
+}
