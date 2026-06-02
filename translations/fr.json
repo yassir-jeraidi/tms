@@ -3,9 +3,9 @@
   "card_title": "titre",
   "create_project": "title",
   "deploy_your_new_project_in_one_click": "Deploy your new project in one-click.",
-  "name": "Name",
-  "name_of_your_project": "Name of your project",
-  "framework": "Framework",
-  "select": "Select",
-  "outline": "Cancel"
+  "name": "\"{total, plural, =0 {No tickets} one {1 ticket} autre {# tickets}}\"",
+  "name_of_your_project": "Mon projet",
+  "framework": "bibliothèque",
+  "select": "Choisir",
+  "outline": "Annuler"
 }
